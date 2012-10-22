@@ -5,7 +5,7 @@ module.exports = function (grunt) {
       var jasmine = require('jasmine-node');
       var util;
       var Path = require('path');
-      var _ = grunt.utils._;
+      var _ = grunt.util._;
 
       try {
           util = require('util');
